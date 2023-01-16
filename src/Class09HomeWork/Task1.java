@@ -1,6 +1,4 @@
-package Class9HomeWork;
-
-import java.sql.SQLOutput;
+package Class09HomeWork;
 
 public class Task1 {
     public static void main(String[] args) {

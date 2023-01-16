@@ -1,10 +1,10 @@
-package Class9HomeWork;
+package Class09HomeWork;
 
 public class Task6 {
 
     public static void main(String[] args) {
 
-        int i=1;
+
         String [] countries=new String[5];
 
         countries[0]="Italy";
@@ -13,24 +13,27 @@ public class Task6 {
         countries[3]="Switzerland";
         countries[4]="Germany";
 
-        switch (i){
-            case(0):
-                System.out.println("Rome");
+        for (int j = 0; j < countries.length; j++) {
+
+        switch (countries[j]){
+            case("Italy"):
+                System.out.println("Country: " + countries[j] + ", Capital: Rome");
                 break;
-            case(1):
+            case("Spain"):
                 System.out.println("Barcelona");
                 break;
-            case(2):
+            case("France"):
                 System.out.println("Paris");
                 break;
-            case(3):
+            case("Switzerland"):
                 System.out.println("Bern");
                 break;
-            case(4):
+            case("Germany"):
                 System.out.println("Berlin");
                 break;
             default:
                 System.out.println("Unknown");
         }
     }
+}
 }
